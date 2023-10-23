@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('font/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-bar{
+    background-color: #61677A;
+}
+
+.profile-bar{
+    background-color: #272829;
+}
+
+.information-bar .mycard{
+    height: 80%;
+}
+
+.connect-bar{
+    background-color: #D8D9DA;
+}
+
+.image-name {
+    display: none; /* Initially hide the image name */
+    color: black;
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transition: opacity 1s;
+  }
+
+  .image-link:hover .image-name {
+    display: block; /* Show the image name on hover */
+    transition: opacity 1s;
+  }
