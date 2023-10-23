@@ -1,2 +1,2 @@
-runtime: nodejs18 # or another supported version
-entrypoint: app.js
+runtime: nodejs18
+# entrypoint: app.js
